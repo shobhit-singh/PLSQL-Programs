@@ -1,3 +1,3 @@
-PLSQL-Programs
+PL/SQL-Programs
 
 ___
