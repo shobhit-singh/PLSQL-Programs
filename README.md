@@ -2,7 +2,9 @@ PL/SQL-Programs
 
 ___
 
-### Collections
+## Collections
+
+### VARRAY
 
 + [PL/SQL Varray Declare, Initialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
 + [PL/SQL Varray Adding & Removing Elements](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_02.sql)
@@ -17,9 +19,7 @@ Array of Integers A[7]
 
 <br>
 
-+ Array in other languages - VARRAY in PL/SQL: Collection of items of same datatype & has a maximum size. 
-+ When defining a VARRAY type, you must specify its maximum size. So fixed upper bound. Subscript is integer (i.e. index) starts from 1
++ Array in other languages - VARRAY in PL/SQL: Collection of items of same datatype & has a maximum size. When defining a VARRAY type, you must specify its maximum size. So fixed upper bound. Subscript is integer (i.e. index) starts from 1
 + VARRAY is always dense (consecutive subscript). You cannot delete an item in middle, but we can trim elements from end. 
-+ VARRAY is preferred when no of elements known & accessed using  sequence i.e. index 
-
++ VARRAY is preferred when no. of elements known & accessed using sequence i.e. index.
 ___
