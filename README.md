@@ -4,7 +4,7 @@ ___
 
 ### Collections
 
-+ [PL/SQL Varray Declare, Intialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
++ [PL/SQL Varray Declare, Initialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
 + [PL/SQL Varray Adding & Removing Elements](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_02.sql)
 + [PL/SQL Varray as Database Table Column](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_03.sql)
 <br>
