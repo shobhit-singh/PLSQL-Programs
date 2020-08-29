@@ -1,7 +1,3 @@
-PL/SQL-Programs
-
-___
-
 ## Collections
 
 ### VARRAY
