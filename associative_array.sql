@@ -6,7 +6,8 @@ DECLARE
 + Similar to hash tables in other programming languages. Dictionary in Python, like Key-Value pair. 
 + Index-by tables, also known as associative arrays
 + Associative arrays are set of Key-Value pair. Each key is unique & locate to use corresponding value in the array.
-+ Key - Integer or String
++ Key - String/PLS_Integer.  Value can be any PL/SQL datatype like Varchar2, Integer. (Check Oracle Documentation for restrictions if any )
++ It can be dense or sparse - i.e. no consecutive index order.
 */
 
         TYPE direction IS
