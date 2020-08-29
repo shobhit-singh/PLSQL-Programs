@@ -1,10 +1,11 @@
 ## Collections
 
-### VARRAY
+### PL/SQL VARRAY
 
-+ [PL/SQL Varray Declare, Initialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
-+ [PL/SQL Varray Adding & Removing Elements](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_02.sql)
-+ [PL/SQL Varray as Database Table Column](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_03.sql)
++ [Declare, Initialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
++ [Adding & Removing Elements](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_02.sql)
++ [Varray as Database Table Column](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_03.sql)
++ [Composite Datatype Varray](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_04.sql)
 <br>
 Array of Integers A[7] 
 <br>
