@@ -2,6 +2,8 @@ PL/SQL-Programs
 
 ___
 
+### Collections
+
 [PL/SQL Varray](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
 <br>
 Array of Integers A[7]
