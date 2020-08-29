@@ -4,7 +4,9 @@ ___
 
 ### Collections
 
-[PL/SQL Varray](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
++ [PL/SQL Varray Declare, Intialize & Iterate](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_01.sql)
++ [PL/SQL Varray Adding & Removing Elements](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_02.sql)
++ [PL/SQL Varray as Database Table Column](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/varray_03.sql)
 <br>
 Array of Integers A[7]
 |Index|1|2|3|4|5|6|7|
