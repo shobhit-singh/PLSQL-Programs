@@ -1,12 +1,6 @@
 SET SERVEROUTPUT ON;
 
-/* Creating Type at DB Level */
-CREATE OR REPLACE TYPE numlist AS VARRAY(5) OF Number;
-CREATE OR REPLACE TYPE charlist AS VARRAY(5) OF VARCHAR(15);
-/
-
 DECLARE
-/* Creating Type at block level */
     TYPE va_char_type IS
         VARRAY(4) OF VARCHAR(15);
     v1  va_char_type := va_char_type('East', 'West', 'North', 'South');  -- initialize varray in declaration using constructor
