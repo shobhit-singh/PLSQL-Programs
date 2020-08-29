@@ -1,3 +1,5 @@
+SET SERVEROUT ON;
+
 DECLARE
     TYPE va_char_type IS
         VARRAY(4) OF VARCHAR(15);
