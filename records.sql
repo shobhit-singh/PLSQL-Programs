@@ -6,7 +6,11 @@ DECLARE
 + Using %ROWTYPE – attribute provides a record type that represents a row in a database table
 */
       my_record_table user_objects%rowtype;
+      lv_date date;
 BEGIN
+
+select sysdate into lv_date from dual;
+
     SELECT
         *
     INTO my_record_table
