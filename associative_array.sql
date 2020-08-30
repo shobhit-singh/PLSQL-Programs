@@ -7,7 +7,7 @@ DECLARE
 + It can be dense or sparse - i.e. no consecutive index order.
 */
 
-        TYPE direction IS
+            TYPE direction IS
         TABLE OF VARCHAR2(15) INDEX BY VARCHAR2(2);
     TYPE error_code IS
         TABLE OF VARCHAR2(100) INDEX BY PLS_INTEGER;
@@ -23,7 +23,7 @@ DECLARE
     ln_index            VARCHAR2(2);
 BEGIN
 /* TABLE OF VARCHAR2(10) INDEX BY VARCHAR2(2) */
-    lv_direction_dict('N') := 'North';
+        lv_direction_dict('N') := 'North';
     lv_direction_dict('S') := 'South';
     lv_direction_dict('E') := 'East';
     lv_direction_dict('W') := 'West';
@@ -31,9 +31,9 @@ BEGIN
     dbms_output.put_line(lv_direction_dict('N')); -- Accessing Single Value
   --dbms_output.put_line(lv_direction_dict('E')); -- Accessing Single Value
     
-        ln_index := lv_direction_dict.first;
+            ln_index := lv_direction_dict.first;
 /*Iteration*/
-    WHILE ln_index IS NOT NULL LOOP
+        WHILE ln_index IS NOT NULL LOOP
         dbms_output.put_line(ln_index
                              || ':'
                              || lv_direction_dict(ln_index));
@@ -43,16 +43,16 @@ BEGIN
     dbms_output.put_line('*************************************************'); 
     /* TABLE OF VARCHAR2(100) INDEX BY PLS_INTEGER */
     
-    lv_error_code_dict(100) := 'Continue';
+        lv_error_code_dict(100) := 'Continue';
     lv_error_code_dict(200) := 'Ok';
     lv_error_code_dict(400) := 'Non-Authorized';
     lv_error_code_dict(203) := 'Bad Request';
     dbms_output.put_line('Error Code 200 Description :' || lv_error_code_dict(200)); -- Accessing Signle Value
-        dbms_output.put_line('Error Code 400 Description :' ||
+            dbms_output.put_line('Error Code 400 Description :' ||
     lv_error_code_dict(400)); -- Accessing Signle Value
     
     /* TABLE OF Composite Datatype INDEX BY PLS_INTEGER */
-        dbms_output.put_line('*************************************************');
+            dbms_output.put_line('*************************************************');
     lv_states(1).state_code := 'JK';
     lv_states(1).state_name := 'Jammu & Kashmir';
     lv_states(2).state_code := 'HP';
@@ -76,7 +76,7 @@ BEGIN
         EXCEPTION
             WHEN OTHERS THEN
                 NULL;--key not available
-            END;
+                    END;
     END LOOP;
 
 END;
