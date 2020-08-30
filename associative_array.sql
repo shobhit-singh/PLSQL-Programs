@@ -1,5 +1,3 @@
-SET DEFINE OFF
-
 DECLARE
 /*
 + Similar to hash tables in other programming languages. Dictionary in Python, like Key-Value pair. 
