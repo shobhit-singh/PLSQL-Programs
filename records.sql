@@ -21,7 +21,6 @@ select sysdate into lv_date from dual;
 
     dbms_output.put_line('OBJECT_TYPE : ' || my_record_table.object_type);
 END;
-/
 
 DECLARE
 /*Creating record 'my_record_cursor' based on row of explicit cursor. */
@@ -40,7 +39,6 @@ BEGIN
     dbms_output.put_line('OBJECT_TYPE : ' || my_record_cursor.object_type);
     CLOSE my_cursor;
 END;
-/
 
 DECLARE
 /*
@@ -71,7 +69,6 @@ BEGIN
     dbms_output.put_line('OBJECT_TYPE : ' || my_record.object_type);
     dbms_output.put_line('CREATED : ' || my_record.created);
 END;
-/
 
 /* Creating Record Type at Database Level */
 
