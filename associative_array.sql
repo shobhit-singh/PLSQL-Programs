@@ -7,7 +7,7 @@ DECLARE
 + It can be dense or sparse - i.e. no consecutive index order.
 */
 
-            TYPE direction IS
+        TYPE direction IS
         TABLE OF VARCHAR2(15) INDEX BY VARCHAR2(2);
     TYPE error_code IS
         TABLE OF VARCHAR2(100) INDEX BY PLS_INTEGER;
