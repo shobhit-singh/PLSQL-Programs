@@ -23,7 +23,7 @@ DECLARE
     ln_index            VARCHAR2(2);
 BEGIN
 /* TABLE OF VARCHAR2(10) INDEX BY VARCHAR2(2) */
-        lv_direction_dict('N') := 'North';
+    lv_direction_dict('N') := 'North';
     lv_direction_dict('S') := 'South';
     lv_direction_dict('E') := 'East';
     lv_direction_dict('W') := 'West';
@@ -43,7 +43,7 @@ BEGIN
     dbms_output.put_line('*************************************************'); 
     /* TABLE OF VARCHAR2(100) INDEX BY PLS_INTEGER */
     
-        lv_error_code_dict(100) := 'Continue';
+    lv_error_code_dict(100) := 'Continue';
     lv_error_code_dict(200) := 'Ok';
     lv_error_code_dict(400) := 'Non-Authorized';
     lv_error_code_dict(203) := 'Bad Request';
