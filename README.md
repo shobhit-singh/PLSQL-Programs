@@ -1,4 +1,10 @@
 
+### PL/SQL Cursors
+Cursor is nothing but a pointer to result of a SQL query.
++ [Implicit/Explicit Cursors](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/cursor01.sql)
+
+[Cursor Blog](https://bigdataenthusiast.wordpress.com/2020/06/02/cursors-in-pl-sql/)
+
 ### PL/SQL Records
 Record is composite data structure i.e. composed of one or more fields.
 + [Table Based/Cursor Based/User Defined Records](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/records.sql)
