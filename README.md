@@ -1,7 +1,7 @@
 
 ### PL/SQL Cursors
 Cursor is nothing but a pointer to result of a SQL query.
-+ [Implicit/Explicit Cursors](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/cursor01.sql)
++ [Implicit/Explicit Cursors](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/cursors01.sql)
 
 [Cursor Blog](https://bigdataenthusiast.wordpress.com/2020/06/02/cursors-in-pl-sql/)
 
