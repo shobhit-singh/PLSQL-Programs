@@ -3,6 +3,7 @@
 Cursor is nothing but a pointer to result of a SQL query.
 + [Implicit/Explicit Cursors](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/cursors01.sql)
 + [Cursor Variable – Ref Cursors (Strong & Weak Type)](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/cursors02.sql)
+
 [Cursor Blog1](https://bigdataenthusiast.wordpress.com/2020/06/02/cursors-in-pl-sql/)
 [Cursor Blog2](https://bigdataenthusiast.wordpress.com/2020/06/02/pl-sql-cursor-variable-ref-cursors-strong-weak-type/)
 
