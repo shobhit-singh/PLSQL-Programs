@@ -12,7 +12,7 @@ Database schema used for SQL query: [Customer Order Schema](https://bigdataenthu
 Record is composite data structure i.e. composed of one or more fields.
 + [Table Based/Cursor Based/User Defined Records](https://github.com/shobhit-singh/PLSQL-Programs/blob/master/records.sql)
 
-### PL/SQL Collections
+### PL/SQL Collections (Data Structures)
 
 #### VARRAY
 Similar to array in other programming languages. 
